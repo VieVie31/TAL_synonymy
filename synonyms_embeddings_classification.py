@@ -174,7 +174,7 @@ for word in tqdm(words[:nb_max_words]):
         negatives.append((word, n))
 
 np.save("positives", np.array(positives))
-np.save("negatives", np.array(negativess))
+np.save("negatives", np.array(negatives))
 
 #del words, wordnet_nouns
 #del allready_seen_words
