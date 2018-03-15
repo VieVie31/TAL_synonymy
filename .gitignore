@@ -3,4 +3,6 @@
 *.bin
 *.npy
 *.txt
+text_classification/author_classification/*
+text_classification/sentiment_classification/*
 
